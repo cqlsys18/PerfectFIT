@@ -1,0 +1,925 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		211B4FE71F17845D00324C3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 211B4FE61F17845D00324C3C /* main.m */; };
+		211B4FEA1F17845D00324C3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 211B4FE91F17845D00324C3C /* AppDelegate.m */; };
+		211B4FED1F17845D00324C3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211B4FEC1F17845D00324C3C /* ViewController.m */; };
+		211B4FF01F17845D00324C3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211B4FEE1F17845D00324C3C /* Main.storyboard */; };
+		211B4FF21F17845D00324C3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211B4FF11F17845D00324C3C /* Assets.xcassets */; };
+		211B4FF51F17845D00324C3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211B4FF31F17845D00324C3C /* LaunchScreen.storyboard */; };
+		211B50001F17845D00324C3C /* PerfectFITTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 211B4FFF1F17845D00324C3C /* PerfectFITTests.m */; };
+		211B500B1F17845D00324C3C /* PerfectFITUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 211B500A1F17845D00324C3C /* PerfectFITUITests.m */; };
+		211B501F1F17863000324C3C /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 211B501E1F17863000324C3C /* LoginVC.m */; };
+		211B50221F17863E00324C3C /* SignupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 211B50211F17863E00324C3C /* SignupVC.m */; };
+		211B50251F17864900324C3C /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 211B50241F17864900324C3C /* HomeVC.m */; };
+		211B50291F17865A00324C3C /* ProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 211B50281F17865A00324C3C /* ProfileVC.m */; };
+		211B502D1F1790A600324C3C /* ChooseLoginSignupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 211B502C1F1790A600324C3C /* ChooseLoginSignupVC.m */; };
+		211B50311F179A3C00324C3C /* MessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 211B50301F179A3C00324C3C /* MessageVC.m */; };
+		211B50351F179AC700324C3C /* TabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 211B50341F179AC700324C3C /* TabBarVC.m */; };
+		21DA306B1F1CA72A00C6B46D /* SanFranciscoText-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 21DA30561F1CA72A00C6B46D /* SanFranciscoText-Bold.otf */; };
+		21DA306C1F1CA72A00C6B46D /* SanFranciscoText-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 21DA30571F1CA72A00C6B46D /* SanFranciscoText-BoldItalic.otf */; };
+		21DA306D1F1CA72A00C6B46D /* SanFranciscoText-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 21DA30581F1CA72A00C6B46D /* SanFranciscoText-Heavy.otf */; };
+		21DA306E1F1CA72A00C6B46D /* SanFranciscoText-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 21DA30591F1CA72A00C6B46D /* SanFranciscoText-HeavyItalic.otf */; };
+		21DA306F1F1CA72A00C6B46D /* SanFranciscoText-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 21DA305A1F1CA72A00C6B46D /* SanFranciscoText-Light.otf */; };
+		21DA30701F1CA72A00C6B46D /* SanFranciscoText-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 21DA305B1F1CA72A00C6B46D /* SanFranciscoText-LightItalic.otf */; };
+		21DA30711F1CA72A00C6B46D /* SanFranciscoText-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 21DA305C1F1CA72A00C6B46D /* SanFranciscoText-Medium.otf */; };
+		21DA30721F1CA72A00C6B46D /* SanFranciscoText-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 21DA305D1F1CA72A00C6B46D /* SanFranciscoText-MediumItalic.otf */; };
+		21DA30731F1CA72A00C6B46D /* SanFranciscoText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 21DA305E1F1CA72A00C6B46D /* SanFranciscoText-Regular.otf */; };
+		21DA30741F1CA72A00C6B46D /* SanFranciscoText-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 21DA305F1F1CA72A00C6B46D /* SanFranciscoText-RegularItalic.otf */; };
+		21DA30751F1CA72A00C6B46D /* SanFranciscoText-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 21DA30601F1CA72A00C6B46D /* SanFranciscoText-Semibold.otf */; };
+		21DA30761F1CA72A00C6B46D /* SanFranciscoText-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 21DA30611F1CA72A00C6B46D /* SanFranciscoText-SemiboldItalic.otf */; };
+		21DA307A1F1CEF0600C6B46D /* ViewProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DA30791F1CEF0600C6B46D /* ViewProfileVC.m */; };
+		2930EC005531B61F7A30A78D /* libPods-PerfectFITUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE109ED6D2969604AB116381 /* libPods-PerfectFITUITests.a */; };
+		8F5CD203CDC26A4247D881D5 /* libPods-PerfectFITTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9ED6FB335F0074E6031990A /* libPods-PerfectFITTests.a */; };
+		9794008E14172EBBE5092E72 /* libPods-PerfectFIT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DC911262F5149D4DE2A992 /* libPods-PerfectFIT.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		211B4FFC1F17845D00324C3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 211B4FDA1F17845D00324C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 211B4FE11F17845D00324C3C;
+			remoteInfo = PerfectFIT;
+		};
+		211B50071F17845D00324C3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 211B4FDA1F17845D00324C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 211B4FE11F17845D00324C3C;
+			remoteInfo = PerfectFIT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04DCEBB9F218F3DE5F29FA3B /* Pods-PerfectFIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectFIT.release.xcconfig"; path = "Pods/Target Support Files/Pods-PerfectFIT/Pods-PerfectFIT.release.xcconfig"; sourceTree = "<group>"; };
+		05DC911262F5149D4DE2A992 /* libPods-PerfectFIT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PerfectFIT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13DB1215A6D4345867D834C5 /* Pods-PerfectFITTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectFITTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PerfectFITTests/Pods-PerfectFITTests.release.xcconfig"; sourceTree = "<group>"; };
+		211B4FE21F17845D00324C3C /* PerfectFIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerfectFIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		211B4FE61F17845D00324C3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		211B4FE81F17845D00324C3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		211B4FE91F17845D00324C3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		211B4FEB1F17845D00324C3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		211B4FEC1F17845D00324C3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		211B4FEF1F17845D00324C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		211B4FF11F17845D00324C3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		211B4FF41F17845D00324C3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		211B4FF61F17845D00324C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		211B4FFB1F17845D00324C3C /* PerfectFITTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfectFITTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		211B4FFF1F17845D00324C3C /* PerfectFITTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerfectFITTests.m; sourceTree = "<group>"; };
+		211B50011F17845D00324C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		211B50061F17845D00324C3C /* PerfectFITUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfectFITUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		211B500A1F17845D00324C3C /* PerfectFITUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerfectFITUITests.m; sourceTree = "<group>"; };
+		211B500C1F17845D00324C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		211B501D1F17863000324C3C /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		211B501E1F17863000324C3C /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		211B50201F17863E00324C3C /* SignupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupVC.h; sourceTree = "<group>"; };
+		211B50211F17863E00324C3C /* SignupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupVC.m; sourceTree = "<group>"; };
+		211B50231F17864900324C3C /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		211B50241F17864900324C3C /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		211B50271F17865A00324C3C /* ProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileVC.h; sourceTree = "<group>"; };
+		211B50281F17865A00324C3C /* ProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileVC.m; sourceTree = "<group>"; };
+		211B502B1F1790A600324C3C /* ChooseLoginSignupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseLoginSignupVC.h; sourceTree = "<group>"; };
+		211B502C1F1790A600324C3C /* ChooseLoginSignupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseLoginSignupVC.m; sourceTree = "<group>"; };
+		211B502F1F179A3C00324C3C /* MessageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageVC.h; sourceTree = "<group>"; };
+		211B50301F179A3C00324C3C /* MessageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageVC.m; sourceTree = "<group>"; };
+		211B50331F179AC700324C3C /* TabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarVC.h; sourceTree = "<group>"; };
+		211B50341F179AC700324C3C /* TabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarVC.m; sourceTree = "<group>"; };
+		21DA30561F1CA72A00C6B46D /* SanFranciscoText-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-Bold.otf"; sourceTree = "<group>"; };
+		21DA30571F1CA72A00C6B46D /* SanFranciscoText-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-BoldItalic.otf"; sourceTree = "<group>"; };
+		21DA30581F1CA72A00C6B46D /* SanFranciscoText-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-Heavy.otf"; sourceTree = "<group>"; };
+		21DA30591F1CA72A00C6B46D /* SanFranciscoText-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-HeavyItalic.otf"; sourceTree = "<group>"; };
+		21DA305A1F1CA72A00C6B46D /* SanFranciscoText-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-Light.otf"; sourceTree = "<group>"; };
+		21DA305B1F1CA72A00C6B46D /* SanFranciscoText-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-LightItalic.otf"; sourceTree = "<group>"; };
+		21DA305C1F1CA72A00C6B46D /* SanFranciscoText-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-Medium.otf"; sourceTree = "<group>"; };
+		21DA305D1F1CA72A00C6B46D /* SanFranciscoText-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-MediumItalic.otf"; sourceTree = "<group>"; };
+		21DA305E1F1CA72A00C6B46D /* SanFranciscoText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-Regular.otf"; sourceTree = "<group>"; };
+		21DA305F1F1CA72A00C6B46D /* SanFranciscoText-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-RegularItalic.otf"; sourceTree = "<group>"; };
+		21DA30601F1CA72A00C6B46D /* SanFranciscoText-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-Semibold.otf"; sourceTree = "<group>"; };
+		21DA30611F1CA72A00C6B46D /* SanFranciscoText-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		21DA30781F1CEF0600C6B46D /* ViewProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewProfileVC.h; sourceTree = "<group>"; };
+		21DA30791F1CEF0600C6B46D /* ViewProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewProfileVC.m; sourceTree = "<group>"; };
+		50A673B2C6A9B7884F696628 /* Pods-PerfectFITUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectFITUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PerfectFITUITests/Pods-PerfectFITUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B9ED6FB335F0074E6031990A /* libPods-PerfectFITTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PerfectFITTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA66654D48DB775E41508D8 /* Pods-PerfectFITTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectFITTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PerfectFITTests/Pods-PerfectFITTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C18F6BC454FFE12281F4B4B2 /* Pods-PerfectFITUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectFITUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PerfectFITUITests/Pods-PerfectFITUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1F41DE909FD535AB8552B9C /* Pods-PerfectFIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectFIT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PerfectFIT/Pods-PerfectFIT.debug.xcconfig"; sourceTree = "<group>"; };
+		DE109ED6D2969604AB116381 /* libPods-PerfectFITUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PerfectFITUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		211B4FDF1F17845D00324C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9794008E14172EBBE5092E72 /* libPods-PerfectFIT.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211B4FF81F17845D00324C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F5CD203CDC26A4247D881D5 /* libPods-PerfectFITTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211B50031F17845D00324C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2930EC005531B61F7A30A78D /* libPods-PerfectFITUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		211B4FD91F17845D00324C3C = {
+			isa = PBXGroup;
+			children = (
+				211B4FE41F17845D00324C3C /* PerfectFIT */,
+				211B4FFE1F17845D00324C3C /* PerfectFITTests */,
+				211B50091F17845D00324C3C /* PerfectFITUITests */,
+				211B4FE31F17845D00324C3C /* Products */,
+				E9137672AD7C67F946D53D22 /* Pods */,
+				4583B81CFFBF954A9FA007FE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		211B4FE31F17845D00324C3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				211B4FE21F17845D00324C3C /* PerfectFIT.app */,
+				211B4FFB1F17845D00324C3C /* PerfectFITTests.xctest */,
+				211B50061F17845D00324C3C /* PerfectFITUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		211B4FE41F17845D00324C3C /* PerfectFIT */ = {
+			isa = PBXGroup;
+			children = (
+				211B50181F1785E300324C3C /* Controller */,
+				211B4FE81F17845D00324C3C /* AppDelegate.h */,
+				211B4FE91F17845D00324C3C /* AppDelegate.m */,
+				211B4FEB1F17845D00324C3C /* ViewController.h */,
+				211B4FEC1F17845D00324C3C /* ViewController.m */,
+				211B4FEE1F17845D00324C3C /* Main.storyboard */,
+				211B4FF11F17845D00324C3C /* Assets.xcassets */,
+				211B4FF31F17845D00324C3C /* LaunchScreen.storyboard */,
+				211B4FF61F17845D00324C3C /* Info.plist */,
+				211B4FE51F17845D00324C3C /* Supporting Files */,
+			);
+			path = PerfectFIT;
+			sourceTree = "<group>";
+		};
+		211B4FE51F17845D00324C3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				211B4FE61F17845D00324C3C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		211B4FFE1F17845D00324C3C /* PerfectFITTests */ = {
+			isa = PBXGroup;
+			children = (
+				211B4FFF1F17845D00324C3C /* PerfectFITTests.m */,
+				211B50011F17845D00324C3C /* Info.plist */,
+			);
+			path = PerfectFITTests;
+			sourceTree = "<group>";
+		};
+		211B50091F17845D00324C3C /* PerfectFITUITests */ = {
+			isa = PBXGroup;
+			children = (
+				211B500A1F17845D00324C3C /* PerfectFITUITests.m */,
+				211B500C1F17845D00324C3C /* Info.plist */,
+			);
+			path = PerfectFITUITests;
+			sourceTree = "<group>";
+		};
+		211B50181F1785E300324C3C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				21DA304B1F1CA6FF00C6B46D /* ThirdParty */,
+				211B50321F179A9E00324C3C /* TabBar */,
+				211B502A1F17908400324C3C /* ChooseLoginSignup */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		211B50191F1785FA00324C3C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				211B501D1F17863000324C3C /* LoginVC.h */,
+				211B501E1F17863000324C3C /* LoginVC.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		211B501A1F17860800324C3C /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				211B50201F17863E00324C3C /* SignupVC.h */,
+				211B50211F17863E00324C3C /* SignupVC.m */,
+			);
+			name = Signup;
+			sourceTree = "<group>";
+		};
+		211B501B1F17860F00324C3C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				211B50231F17864900324C3C /* HomeVC.h */,
+				211B50241F17864900324C3C /* HomeVC.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		211B501C1F17861900324C3C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				21DA30771F1CEEE300C6B46D /* ViewProfile */,
+				211B50271F17865A00324C3C /* ProfileVC.h */,
+				211B50281F17865A00324C3C /* ProfileVC.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		211B502A1F17908400324C3C /* ChooseLoginSignup */ = {
+			isa = PBXGroup;
+			children = (
+				211B502B1F1790A600324C3C /* ChooseLoginSignupVC.h */,
+				211B502C1F1790A600324C3C /* ChooseLoginSignupVC.m */,
+				211B50191F1785FA00324C3C /* Login */,
+				211B501A1F17860800324C3C /* Signup */,
+			);
+			name = ChooseLoginSignup;
+			sourceTree = "<group>";
+		};
+		211B502E1F179A2400324C3C /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				211B502F1F179A3C00324C3C /* MessageVC.h */,
+				211B50301F179A3C00324C3C /* MessageVC.m */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		211B50321F179A9E00324C3C /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				211B502E1F179A2400324C3C /* Message */,
+				211B501C1F17861900324C3C /* Profile */,
+				211B501B1F17860F00324C3C /* Home */,
+				211B50331F179AC700324C3C /* TabBarVC.h */,
+				211B50341F179AC700324C3C /* TabBarVC.m */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		21DA304B1F1CA6FF00C6B46D /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				21DA304C1F1CA70B00C6B46D /* Resource */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		21DA304C1F1CA70B00C6B46D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				21DA30561F1CA72A00C6B46D /* SanFranciscoText-Bold.otf */,
+				21DA30571F1CA72A00C6B46D /* SanFranciscoText-BoldItalic.otf */,
+				21DA30581F1CA72A00C6B46D /* SanFranciscoText-Heavy.otf */,
+				21DA30591F1CA72A00C6B46D /* SanFranciscoText-HeavyItalic.otf */,
+				21DA305A1F1CA72A00C6B46D /* SanFranciscoText-Light.otf */,
+				21DA305B1F1CA72A00C6B46D /* SanFranciscoText-LightItalic.otf */,
+				21DA305C1F1CA72A00C6B46D /* SanFranciscoText-Medium.otf */,
+				21DA305D1F1CA72A00C6B46D /* SanFranciscoText-MediumItalic.otf */,
+				21DA305E1F1CA72A00C6B46D /* SanFranciscoText-Regular.otf */,
+				21DA305F1F1CA72A00C6B46D /* SanFranciscoText-RegularItalic.otf */,
+				21DA30601F1CA72A00C6B46D /* SanFranciscoText-Semibold.otf */,
+				21DA30611F1CA72A00C6B46D /* SanFranciscoText-SemiboldItalic.otf */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		21DA30771F1CEEE300C6B46D /* ViewProfile */ = {
+			isa = PBXGroup;
+			children = (
+				21DA30781F1CEF0600C6B46D /* ViewProfileVC.h */,
+				21DA30791F1CEF0600C6B46D /* ViewProfileVC.m */,
+			);
+			name = ViewProfile;
+			sourceTree = "<group>";
+		};
+		4583B81CFFBF954A9FA007FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05DC911262F5149D4DE2A992 /* libPods-PerfectFIT.a */,
+				B9ED6FB335F0074E6031990A /* libPods-PerfectFITTests.a */,
+				DE109ED6D2969604AB116381 /* libPods-PerfectFITUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9137672AD7C67F946D53D22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1F41DE909FD535AB8552B9C /* Pods-PerfectFIT.debug.xcconfig */,
+				04DCEBB9F218F3DE5F29FA3B /* Pods-PerfectFIT.release.xcconfig */,
+				BCA66654D48DB775E41508D8 /* Pods-PerfectFITTests.debug.xcconfig */,
+				13DB1215A6D4345867D834C5 /* Pods-PerfectFITTests.release.xcconfig */,
+				C18F6BC454FFE12281F4B4B2 /* Pods-PerfectFITUITests.debug.xcconfig */,
+				50A673B2C6A9B7884F696628 /* Pods-PerfectFITUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		211B4FE11F17845D00324C3C /* PerfectFIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211B500F1F17845D00324C3C /* Build configuration list for PBXNativeTarget "PerfectFIT" */;
+			buildPhases = (
+				DA2E8A6CFE57DF6B26967FDC /* [CP] Check Pods Manifest.lock */,
+				211B4FDE1F17845D00324C3C /* Sources */,
+				211B4FDF1F17845D00324C3C /* Frameworks */,
+				211B4FE01F17845D00324C3C /* Resources */,
+				FCA99731E007B8BEA95F3456 /* [CP] Embed Pods Frameworks */,
+				FD65E080502E603A8350E0E5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectFIT;
+			productName = PerfectFIT;
+			productReference = 211B4FE21F17845D00324C3C /* PerfectFIT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		211B4FFA1F17845D00324C3C /* PerfectFITTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211B50121F17845D00324C3C /* Build configuration list for PBXNativeTarget "PerfectFITTests" */;
+			buildPhases = (
+				04E62B7653E53CF7285C7420 /* [CP] Check Pods Manifest.lock */,
+				211B4FF71F17845D00324C3C /* Sources */,
+				211B4FF81F17845D00324C3C /* Frameworks */,
+				211B4FF91F17845D00324C3C /* Resources */,
+				8233128246AC98A303FFDE81 /* [CP] Embed Pods Frameworks */,
+				7D87E1911EC1BA016FA54795 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				211B4FFD1F17845D00324C3C /* PBXTargetDependency */,
+			);
+			name = PerfectFITTests;
+			productName = PerfectFITTests;
+			productReference = 211B4FFB1F17845D00324C3C /* PerfectFITTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		211B50051F17845D00324C3C /* PerfectFITUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211B50151F17845D00324C3C /* Build configuration list for PBXNativeTarget "PerfectFITUITests" */;
+			buildPhases = (
+				6DCEDC7E39D4143014D196B8 /* [CP] Check Pods Manifest.lock */,
+				211B50021F17845D00324C3C /* Sources */,
+				211B50031F17845D00324C3C /* Frameworks */,
+				211B50041F17845D00324C3C /* Resources */,
+				9B49B1E6E5636F6C62FE0C5D /* [CP] Embed Pods Frameworks */,
+				EF6EE87A0CB43FA8441456A5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				211B50081F17845D00324C3C /* PBXTargetDependency */,
+			);
+			name = PerfectFITUITests;
+			productName = PerfectFITUITests;
+			productReference = 211B50061F17845D00324C3C /* PerfectFITUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		211B4FDA1F17845D00324C3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AJ;
+				TargetAttributes = {
+					211B4FE11F17845D00324C3C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = UL6P4CWL4N;
+						ProvisioningStyle = Manual;
+					};
+					211B4FFA1F17845D00324C3C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 211B4FE11F17845D00324C3C;
+					};
+					211B50051F17845D00324C3C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 211B4FE11F17845D00324C3C;
+					};
+				};
+			};
+			buildConfigurationList = 211B4FDD1F17845D00324C3C /* Build configuration list for PBXProject "PerfectFIT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 211B4FD91F17845D00324C3C;
+			productRefGroup = 211B4FE31F17845D00324C3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				211B4FE11F17845D00324C3C /* PerfectFIT */,
+				211B4FFA1F17845D00324C3C /* PerfectFITTests */,
+				211B50051F17845D00324C3C /* PerfectFITUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		211B4FE01F17845D00324C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DA306D1F1CA72A00C6B46D /* SanFranciscoText-Heavy.otf in Resources */,
+				21DA306F1F1CA72A00C6B46D /* SanFranciscoText-Light.otf in Resources */,
+				211B4FF51F17845D00324C3C /* LaunchScreen.storyboard in Resources */,
+				211B4FF21F17845D00324C3C /* Assets.xcassets in Resources */,
+				21DA30741F1CA72A00C6B46D /* SanFranciscoText-RegularItalic.otf in Resources */,
+				21DA306B1F1CA72A00C6B46D /* SanFranciscoText-Bold.otf in Resources */,
+				21DA30721F1CA72A00C6B46D /* SanFranciscoText-MediumItalic.otf in Resources */,
+				21DA306C1F1CA72A00C6B46D /* SanFranciscoText-BoldItalic.otf in Resources */,
+				21DA30731F1CA72A00C6B46D /* SanFranciscoText-Regular.otf in Resources */,
+				21DA30701F1CA72A00C6B46D /* SanFranciscoText-LightItalic.otf in Resources */,
+				211B4FF01F17845D00324C3C /* Main.storyboard in Resources */,
+				21DA30711F1CA72A00C6B46D /* SanFranciscoText-Medium.otf in Resources */,
+				21DA306E1F1CA72A00C6B46D /* SanFranciscoText-HeavyItalic.otf in Resources */,
+				21DA30761F1CA72A00C6B46D /* SanFranciscoText-SemiboldItalic.otf in Resources */,
+				21DA30751F1CA72A00C6B46D /* SanFranciscoText-Semibold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211B4FF91F17845D00324C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211B50041F17845D00324C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04E62B7653E53CF7285C7420 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6DCEDC7E39D4143014D196B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D87E1911EC1BA016FA54795 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PerfectFITTests/Pods-PerfectFITTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8233128246AC98A303FFDE81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PerfectFITTests/Pods-PerfectFITTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B49B1E6E5636F6C62FE0C5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PerfectFITUITests/Pods-PerfectFITUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA2E8A6CFE57DF6B26967FDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF6EE87A0CB43FA8441456A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PerfectFITUITests/Pods-PerfectFITUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCA99731E007B8BEA95F3456 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PerfectFIT/Pods-PerfectFIT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD65E080502E603A8350E0E5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PerfectFIT/Pods-PerfectFIT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		211B4FDE1F17845D00324C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211B50291F17865A00324C3C /* ProfileVC.m in Sources */,
+				211B502D1F1790A600324C3C /* ChooseLoginSignupVC.m in Sources */,
+				21DA307A1F1CEF0600C6B46D /* ViewProfileVC.m in Sources */,
+				211B4FED1F17845D00324C3C /* ViewController.m in Sources */,
+				211B4FEA1F17845D00324C3C /* AppDelegate.m in Sources */,
+				211B50221F17863E00324C3C /* SignupVC.m in Sources */,
+				211B50251F17864900324C3C /* HomeVC.m in Sources */,
+				211B501F1F17863000324C3C /* LoginVC.m in Sources */,
+				211B4FE71F17845D00324C3C /* main.m in Sources */,
+				211B50351F179AC700324C3C /* TabBarVC.m in Sources */,
+				211B50311F179A3C00324C3C /* MessageVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211B4FF71F17845D00324C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211B50001F17845D00324C3C /* PerfectFITTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211B50021F17845D00324C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211B500B1F17845D00324C3C /* PerfectFITUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		211B4FFD1F17845D00324C3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 211B4FE11F17845D00324C3C /* PerfectFIT */;
+			targetProxy = 211B4FFC1F17845D00324C3C /* PBXContainerItemProxy */;
+		};
+		211B50081F17845D00324C3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 211B4FE11F17845D00324C3C /* PerfectFIT */;
+			targetProxy = 211B50071F17845D00324C3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		211B4FEE1F17845D00324C3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				211B4FEF1F17845D00324C3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		211B4FF31F17845D00324C3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				211B4FF41F17845D00324C3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		211B500D1F17845D00324C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		211B500E1F17845D00324C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		211B50101F17845D00324C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1F41DE909FD535AB8552B9C /* Pods-PerfectFIT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ajay Kumar (UL6P4CWL4N)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ajay Kumar (UL6P4CWL4N)";
+				DEVELOPMENT_TEAM = UL6P4CWL4N;
+				INFOPLIST_FILE = PerfectFIT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqlsys.PerfectFIT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9100641c-9c40-465c-a366-884d14c7ee48";
+				PROVISIONING_PROFILE_SPECIFIER = PerfectFitDist;
+			};
+			name = Debug;
+		};
+		211B50111F17845D00324C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04DCEBB9F218F3DE5F29FA3B /* Pods-PerfectFIT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ajay Kumar (UL6P4CWL4N)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ajay Kumar (UL6P4CWL4N)";
+				DEVELOPMENT_TEAM = UL6P4CWL4N;
+				INFOPLIST_FILE = PerfectFIT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqlsys.PerfectFIT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9100641c-9c40-465c-a366-884d14c7ee48";
+				PROVISIONING_PROFILE_SPECIFIER = PerfectFitDist;
+			};
+			name = Release;
+		};
+		211B50131F17845D00324C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCA66654D48DB775E41508D8 /* Pods-PerfectFITTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PerfectFITTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqlsys.PerfectFITTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerfectFIT.app/PerfectFIT";
+			};
+			name = Debug;
+		};
+		211B50141F17845D00324C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13DB1215A6D4345867D834C5 /* Pods-PerfectFITTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PerfectFITTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqlsys.PerfectFITTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerfectFIT.app/PerfectFIT";
+			};
+			name = Release;
+		};
+		211B50161F17845D00324C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C18F6BC454FFE12281F4B4B2 /* Pods-PerfectFITUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PerfectFITUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqlsys.PerfectFITUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PerfectFIT;
+			};
+			name = Debug;
+		};
+		211B50171F17845D00324C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A673B2C6A9B7884F696628 /* Pods-PerfectFITUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PerfectFITUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqlsys.PerfectFITUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PerfectFIT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		211B4FDD1F17845D00324C3C /* Build configuration list for PBXProject "PerfectFIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211B500D1F17845D00324C3C /* Debug */,
+				211B500E1F17845D00324C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		211B500F1F17845D00324C3C /* Build configuration list for PBXNativeTarget "PerfectFIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211B50101F17845D00324C3C /* Debug */,
+				211B50111F17845D00324C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		211B50121F17845D00324C3C /* Build configuration list for PBXNativeTarget "PerfectFITTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211B50131F17845D00324C3C /* Debug */,
+				211B50141F17845D00324C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		211B50151F17845D00324C3C /* Build configuration list for PBXNativeTarget "PerfectFITUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211B50161F17845D00324C3C /* Debug */,
+				211B50171F17845D00324C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 211B4FDA1F17845D00324C3C /* Project object */;
+}
